@@ -1,5 +1,8 @@
 # [knex.js](http://knexjs.org)
 
+NOTE: this repo is used to solve the issue caused by the "serverless-plugin-optimize" module.
+The error occurs because knex dynamically chooses which DB engine to use.
+
 [![npm version](http://img.shields.io/npm/v/knex.svg)](https://npmjs.org/package/knex)
 [![npm downloads](https://img.shields.io/npm/dm/knex.svg)](https://npmjs.org/package/knex)
 [![Build Status](https://travis-ci.org/knex/knex.svg?branch=master)](https://travis-ci.org/knex/knex)
